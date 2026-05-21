@@ -363,7 +363,7 @@ fn main(): any {
    def max_seconds = math.max(cli.float_value_from(args, "--seconds", 0.0), 0.0)
    def interactive = max_frames <= 0 && max_seconds <= 0.0
    def fps = int(math.max(cli.int_value_from(args, "--fps", 0), 0))
-   def asset_root = cli.value_from(args, "--asset-root", "tmp/projects/raygame_ny")
+   def asset_root = cli.value_from(args, "--asset-root", ".")
 
    SetConfigFlags(FLAG_WINDOW_RESIZABLE)
    InitWindow(width, height, "raylib game")
