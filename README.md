@@ -16,6 +16,7 @@ Easy-to-understand code structure
 
 #### Requirements
 
+nytrix ([Installation Guide](https://github.com/nytrix-lang/nytrix))
 raylib library ([Installation Guide](https://github.com/raysan5/raylib))
 
 #### Compile & run
@@ -23,7 +24,7 @@ raylib library ([Installation Guide](https://github.com/raysan5/raylib))
 <pre>
 git clone https://github.com/x3ric/raygame
 cd raygame
-make run
+ny raygame.ny
 </pre>
 
 <br>
